@@ -1,0 +1,23 @@
+
+.mosaico {
+  line-height: 0;
+  column-count: 1;
+}
+
+.mosaico div {
+  width: 100%;
+  margin-bottom: 1rem;
+  break-inside: avoid;
+}
+
+@media (min-width: 37em) {
+  .mosaico{
+    column-count: 2;
+  }
+} 
+
+@media (min-width: 68em) {
+  .mosaico{
+    column-count: 3;
+  }
+} 
